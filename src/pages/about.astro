@@ -4,37 +4,33 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Sobre mi";
 
 const identity = {
-	firstName: "Sarah",
-	country: "Canada",
-	occupation: "Escritor técnico",
-	hobbies: ["fotografia", "observación de aves", "peñarol"],
+	firstName: "Juan Palma",
+	country: "México",
+	occupation: "Diseñador Gráfico, Fotografo, Modelador 3D - Render y Desarrollador Web",
+	hobbies: ["Musica", "Video juegos", "Anime"],
 };
 
 const skills = [
 	"HTML",
 	"CSS",
 	"JavaScript",
-	"React",
-	"Astro",
-	"Redacción de documentos",
+	"Astro, Svelte, Aurelia, Next.js",
+	"Larave - PHP",
+	"Deno - Node.js",
+	"Database: MySQL, PostgreSQL, MongoDB",
+	"Git y GitHub",
+	"Blender, Cinema 4D",
+	"Figma, Photoshop, Illustrator",
+	"Lightroom, After Effects"
 ];
 
 const happy = true;
-const finished = false;
+const finished = true;
 const goal = 3;
 
 const skillColor = "navy";
 ---
-<style define:vars={{skillColor}}>
-	h1 {
-		color: purple;
-		font-size: 4rem;
-	}
-	.skill {
-		color: var(--skillColor);
-		font-weight: bold;
-	}
-</style>
+
 
 <BaseLayout pageTitle={pageTitle}>
 	<h2>... ¡y mi nuevo sitio Astro!</h2>
